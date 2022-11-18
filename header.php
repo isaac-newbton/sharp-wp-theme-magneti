@@ -8,10 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo('name'); ?></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Sigmar+One&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
     <?php wp_body_open(); ?>
     <div id="page">
-        <?php include get_stylesheet_directory() . '/components/header-nav.php'; ?>
         
